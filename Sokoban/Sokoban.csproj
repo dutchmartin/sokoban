@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Board.cs" />
+    <Compile Include="DoublyLinkedMatrix.cs" />
     <Compile Include="BoardItem.cs" />
     <Compile Include="BoardView.cs" />
     <Compile Include="BoardViewModel.cs" />

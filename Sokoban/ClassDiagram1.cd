@@ -29,11 +29,11 @@
       <FileName>Game.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sokoban.MazeContainer">
+  <Class Name="Sokoban.DoublyLinkedMatrix">
     <Position X="1" Y="5.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
-      <FileName>Board.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAIAAAAgAAAA=</HashCode>
+      <FileName>DoublyLinkedMatrix.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.MazeItem">
@@ -43,11 +43,11 @@
       <FileName>BoardItem.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sokoban.Maze">
+  <Class Name="Sokoban.MatrixItem">
     <Position X="3.75" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Board.cs</FileName>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAQ=</HashCode>
+      <FileName>DoublyLinkedMatrix.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.Wall">
@@ -81,14 +81,14 @@
   <Class Name="Sokoban.Box">
     <Position X="0.5" Y="11.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Box.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.MazeFactory">
     <Position X="3" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAIAAAAQAAAAAAAAAAAA=</HashCode>
       <FileName>MazeFactory.cs</FileName>
     </TypeIdentifier>
   </Class>

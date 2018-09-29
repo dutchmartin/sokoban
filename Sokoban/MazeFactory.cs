@@ -7,13 +7,13 @@ namespace Sokoban
 {
     public class MazeFactory
     {
-        public static Maze SetUpLevel(String level)
+        public static MatrixItem SetUpLevel(String level)
         {
             
             
             throw new NotImplementedException();
         }
-        private static MazeContainer CreateMazeContainer(String level)
+        private static DoublyLinkedMatrix CreateMazeContainer(String level)
         {
             String[] LevelLines = level.Split('\n');
             int mazeWidth = LevelLines.First().Length;
@@ -26,7 +26,7 @@ namespace Sokoban
                     maze[i, j] = MazeItemFromChar(chars[j]);
                 }
             }
-            return new MazeContainer(maze);
+            return new DoublyLinkedMatrix(maze);
         }
         private static MazeItem MazeItemFromChar(Char item)
         {
