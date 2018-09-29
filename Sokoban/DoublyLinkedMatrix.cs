@@ -18,9 +18,9 @@ namespace Sokoban
             MatrixItem LastItem = null;
             foreach( MatrixItem item in FirstRow )
             {
-                if (LastItem == null)
+                if (Origin == null)
                 {
-
+                    Origin = item;
                 }
             }
         }
@@ -29,16 +29,5 @@ namespace Sokoban
         {
             throw new System.NotImplementedException();
         }
-    }
-
-    // This class contains the rules of the game.
-    public class MatrixItem
-    {
-        public MatrixItem North { get; set; }
-        public MatrixItem East { get; set; }
-        public MatrixItem South { get; set; }
-        public MatrixItem West { get; set; }
-
-
     }
 }
