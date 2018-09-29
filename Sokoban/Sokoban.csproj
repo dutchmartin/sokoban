@@ -47,7 +47,6 @@
     <Compile Include="BoardView.cs" />
     <Compile Include="BoardViewModel.cs" />
     <Compile Include="Box.cs" />
-    <Compile Include="Destination.cs" />
     <Compile Include="Directions.cs" />
     <Compile Include="FileReader.cs" />
     <Compile Include="Floor.cs" />

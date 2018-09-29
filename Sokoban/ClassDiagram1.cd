@@ -68,13 +68,6 @@
       <FileName>Floor.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sokoban.Destination">
-    <Position X="2.5" Y="11.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Destination.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Sokoban.Box">
     <Position X="0.5" Y="11.5" Width="1.5" />
     <TypeIdentifier>

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Sokoban
 {
-    public abstract class MazeItem
+    public abstract class MazeItem : MatrixItem
     {
         public char _value { get; protected set; }
         public int x { get; set; }
