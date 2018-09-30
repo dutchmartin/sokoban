@@ -16,21 +16,21 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.FileReader">
-    <Position X="8" Y="5.5" Width="1.5" />
+    <Position X="9.5" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAQAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>FileReader.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.Game">
-    <Position X="5.75" Y="5.5" Width="1.5" />
+    <Position X="6" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAQAAAAA=</HashCode>
       <FileName>Game.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.DoublyLinkedMatrix">
-    <Position X="1.25" Y="5.5" Width="1.5" />
+    <Position X="1" Y="8" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAIAAAAgAAAA=</HashCode>
       <FileName>DoublyLinkedMatrix.cs</FileName>
@@ -41,45 +41,47 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Sokoban.MazeItem">
-    <Position X="3.25" Y="8" Width="1.75" />
+    <Position X="9.25" Y="8" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAgAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAAAA=</HashCode>
       <FileName>BoardItem.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sokoban.Wall">
-    <Position X="5.75" Y="11" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>MazeItems\Wall.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Sokoban.Player">
-    <Position X="3.5" Y="11" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>MazeItems\Player.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Sokoban.Box">
-    <Position X="1.5" Y="11" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>MazeItems\Box.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Sokoban.MazeFactory">
-    <Position X="10" Y="5.5" Width="1.5" />
+    <Position X="11.75" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAIAAAAQAAAAAAAAAAAA=</HashCode>
       <FileName>MazeFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MatrixItem">
-    <Position X="3.5" Y="5.5" Width="1.5" />
+    <Position X="3.25" Y="8" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AACAABAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAQ=</HashCode>
+      <HashCode>AACAABAAAAAAAAAAAAAAAAAAEAAAAAAIAAAAAAABAAQ=</HashCode>
       <FileName>MatixItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sokoban.Player">
+    <Position X="9.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sokoban.Box">
+    <Position X="7.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Box.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sokoban.Wall">
+    <Position X="11.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Wall.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="Sokoban.IRenderable">
@@ -87,6 +89,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
       <FileName>Renderable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sokoban.isMovable">
+    <Position X="13.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>isMovable.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Enum Name="Sokoban.Directions">

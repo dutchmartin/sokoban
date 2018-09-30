@@ -9,14 +9,27 @@ namespace Sokoban
     {
         public MatrixItem location { get; set; }
 
-        public void Move()
+        public MatrixItem getNextLocation(Directions direction)
         {
-            throw new System.NotImplementedException();
-        }
+            MatrixItem result = new MatrixItem();
 
-        public bool CheckMoveability()
-        {
-            throw new System.NotImplementedException();
+            switch (direction)
+            {
+                case Directions.Right:
+                    result = location.East;
+                    break;
+                case Directions.Left:
+                    result = location.West;
+                    break;
+                case Directions.Up:
+                    result = location.North;
+                    break;
+                case Directions.Down:
+                    result = location.South;
+                    break;
+            }
+
+            return result;
         }
     }
 }
