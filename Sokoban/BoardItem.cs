@@ -5,10 +5,18 @@ using System.Text;
 
 namespace Sokoban
 {
-    public abstract class MazeItem : MatrixItem
+    public abstract class MazeItem
     {
-        public char _value { get; protected set; }
-        public int x { get; set; }
-        public int y { get; set; }
+        public MatrixItem location { get; set; }
+
+        public void Move()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public bool CheckMoveability()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

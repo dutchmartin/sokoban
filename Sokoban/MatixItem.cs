@@ -5,4 +5,5 @@
     public MatrixItem South { get; set; }
     public MatrixItem West { get; set; }
 
+    public bool isDestination { get; set; }
 }

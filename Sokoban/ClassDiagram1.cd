@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Sokoban.GameView">
-    <Position X="8" Y="2.25" Width="1.5" />
+    <Position X="8" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
       <FileName>BoardView.cs</FileName>
@@ -9,23 +9,23 @@
     <Lollipop Position="0.217" />
   </Class>
   <Class Name="Sokoban.GameViewModel">
-    <Position X="8" Y="4" Width="1.5" />
+    <Position X="8" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BoardViewModel.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.FileReader">
-    <Position X="0.75" Y="1" Width="1.5" />
+    <Position X="8" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAQAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>FileReader.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.Game">
-    <Position X="6" Y="4.5" Width="1.5" />
+    <Position X="5.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAQAAAAA=</HashCode>
       <FileName>Game.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -36,56 +36,49 @@
       <FileName>DoublyLinkedMatrix.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="End" />
       <Property Name="Origin" />
+      <Property Name="End" />
     </ShowAsAssociation>
   </Class>
   <Class Name="Sokoban.MazeItem">
-    <Position X="0.5" Y="8" Width="1.5" />
+    <Position X="3.25" Y="8" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAIAgAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BoardItem.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.Wall">
-    <Position X="3.75" Y="9.5" Width="1.5" />
+    <Position X="5.75" Y="11" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Wall.cs</FileName>
+      <FileName>MazeItems\Wall.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.Player">
-    <Position X="2" Y="10" Width="1.5" />
+    <Position X="3.5" Y="11" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Player.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Sokoban.Floor">
-    <Position X="5.25" Y="8.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Floor.cs</FileName>
+      <FileName>MazeItems\Player.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.Box">
-    <Position X="0.5" Y="11.5" Width="1.5" />
+    <Position X="1.5" Y="11" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Box.cs</FileName>
+      <FileName>MazeItems\Box.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.MazeFactory">
-    <Position X="3" Y="2.75" Width="1.5" />
+    <Position X="10" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAIAAAAQAAAAAAAAAAAA=</HashCode>
       <FileName>MazeFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MatrixItem">
-    <Position X="3.5" Y="5.75" Width="1.5" />
+    <Position X="3.5" Y="5.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAQ=</HashCode>
+      <HashCode>AACAABAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAQ=</HashCode>
       <FileName>MatixItem.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -97,7 +90,7 @@
     </TypeIdentifier>
   </Interface>
   <Enum Name="Sokoban.Directions">
-    <Position X="0.5" Y="3" Width="1.5" />
+    <Position X="2.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AACAAAIAAAAAAAAAAAAAAAAAEAAAAAAACACAAAABAAY=</HashCode>
       <FileName>Directions.cs</FileName>
