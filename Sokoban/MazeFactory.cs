@@ -18,7 +18,7 @@ namespace Sokoban
             String[] LevelLines = level.Split('\n');
             // Set up the matrix.
             var Matrix = new DoublyLinkedMatrix(MatrixItemsFromString(LevelLines[0]));
-            // Add more Rows
+            // Add more Rows.
             for (int i = 1; i < LevelLines.Length; i++)
             {
                 Matrix.AddRow(MatrixItemsFromString(LevelLines[i]));
@@ -29,11 +29,12 @@ namespace Sokoban
         private static MatrixItem[] MatrixItemsFromString(String BoardItemRow)
         {
             MatrixItem[] Row = new MatrixItem[BoardItemRow.Length];
-            var chars = BoardItemRow.ToCharArray()
-            for (int i = 0; i < chars.Length; i++)
+            var chars = BoardItemRow.ToCharArray();
+            for(int i = 0; i < chars.Length; i++)
             {
                 Row[i] = MatrixItemFactory.Create(chars[i]);
             }
+            return Row;
         }
     }
 }
