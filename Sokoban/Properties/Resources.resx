@@ -133,4 +133,10 @@
   <data name="Level1" xml:space="preserve">
     <value />
   </data>
+  <data name="doolhof5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Levels\doolhof5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="doolhof6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Levels\doolhof6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
 </root>

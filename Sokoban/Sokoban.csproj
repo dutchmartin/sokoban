@@ -55,6 +55,7 @@
     <Compile Include="isMovable.cs" />
     <Compile Include="Levels.cs" />
     <Compile Include="MatixItem.cs" />
+    <Compile Include="MatrixItemFactory.cs" />
     <Compile Include="MazeFactory.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
@@ -88,6 +89,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Levels\doolhof4.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Levels\doolhof5.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Levels\doolhof6.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

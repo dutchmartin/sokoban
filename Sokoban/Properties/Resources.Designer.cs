@@ -135,6 +135,40 @@ namespace Sokoban.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to #############
+        ///#.......#..x#
+        ///#.o..#x##..##
+        ///#.#.o~..o...#
+        ///#..@.~x.##.##
+        ///#..#.~......#
+        ///#############.
+        /// </summary>
+        internal static string doolhof5 {
+            get {
+                return ResourceManager.GetString("doolhof5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to #                    ##     
+        ///#####################..#### 
+        ///##........................##
+        ///#..#.######.#########.....##
+        ///#....#..#.....##xxxx.......#
+        ///#..#..o..o@$#.###xxx...##..#
+        ///#..o..#..#.o..####xx#...xx##
+        ///#..#.o..o..#..#####x..##.x##
+        ///#..o.#.o#..o..######.##..###
+        ///##.........##.########....##
+        ///############################.
+        /// </summary>
+        internal static string doolhof6 {
+            get {
+                return ResourceManager.GetString("doolhof6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
         internal static string Level1 {
