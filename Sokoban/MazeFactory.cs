@@ -35,17 +35,21 @@ namespace Sokoban
                 case '#':
                     return new Wall();
                 case '.':
-                    return new Floor();
+                    //Bestaat niet meer
+                    //return new Floor();
                 case 'O':
                     return new Box();
                 case '0':
-                    return new Box { OnDestination = true };
+                    //Moet anders worden verwerkt
+                    //return new Box { OnDestination = true };
                 case '@':
                     return new Player();
                 case 'x':
-                    return new Destination();
+                    //Moet ook anders worden verwerkt
+                    //return new Destination();
                 default:
-                    return new Floor();
+                    //Bestaat niet meer
+                    //return new Floor();
             }
         }
     }

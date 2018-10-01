@@ -5,28 +5,27 @@ using System.Text;
 
 namespace Sokoban
 {
-    public class MazeContainer
+    public class Board
     {
-        public MazeItem[][] _Items { get; private set; }
-
-        public MazeContainer()
+        public Player _player = new Player();
+        public MatrixItem[] destinations;
+        
+        public void doMove(Directions direction)
         {
-
+            _player.canMove(direction);
+            _player.Move(direction);
+            CheckFinish();
         }
 
-        public MazeItem GetItemAt(int xIndex, int yIndex)
+        private bool CheckFinish()
         {
-            throw new System.NotImplementedException();
+            foreach(MatrixItem item in destinations)
+            {
+                if (item.occupant == null)
+                    return false;
+            }
+            return true;
         }
-    }
-
-    public class Maze
-    {
-        private MazeContainer _maze;
-
-        public Maze( MazeContainer maze)
-        {
-            this._maze = maze;
-        }
+        
     }
 }

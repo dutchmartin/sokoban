@@ -9,5 +9,5 @@ public class MatrixItem
 
     public MazeItem occupant { get; set; }
 
-    public bool isDestination { get; set; }
+    //public bool isDestination { get; set; }
 }
