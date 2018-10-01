@@ -32,7 +32,7 @@
   <Class Name="Sokoban.DoublyLinkedMatrix">
     <Position X="1" Y="8" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAIAAAAgAAAA=</HashCode>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAEAAAAAgAAAg=</HashCode>
       <FileName>DoublyLinkedMatrix.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -96,6 +96,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>isMovable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sokoban.isDestination">
+    <Position X="3.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>isDestination.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Enum Name="Sokoban.Directions">

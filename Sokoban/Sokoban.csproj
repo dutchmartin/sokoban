@@ -50,6 +50,7 @@
     <Compile Include="Directions.cs" />
     <Compile Include="FileReader.cs" />
     <Compile Include="Game.cs" />
+    <Compile Include="isDestination.cs" />
     <Compile Include="isMovable.cs" />
     <Compile Include="Levels.cs" />
     <Compile Include="MatixItem.cs" />
