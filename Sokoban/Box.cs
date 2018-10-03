@@ -20,7 +20,7 @@ namespace Sokoban
         public void Move(Directions direction)
         {
             MatrixItem nextLocation = getNextLocation(direction);
-            /*Eerst het huidige hoke leegmaken
+            /*Eerst het huidige hokje leegmaken
              * daarna this in het nextitem stoppen
              * daarna location veranderen naar nextitem
              */

@@ -53,9 +53,11 @@
     <Compile Include="Game.cs" />
     <Compile Include="isDestination.cs" />
     <Compile Include="isMovable.cs" />
+    <Compile Include="isPusher.cs" />
     <Compile Include="Levels.cs" />
     <Compile Include="MatixItem.cs" />
     <Compile Include="MazeFactory.cs" />
+    <Compile Include="MazeItemLookUpTable.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -65,6 +67,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Renderable.cs" />
+    <Compile Include="TypeToCharDictionary.cs" />
     <Compile Include="Wall.cs" />
   </ItemGroup>
   <ItemGroup>

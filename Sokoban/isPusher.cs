@@ -5,8 +5,8 @@ using System.Text;
 
 namespace Sokoban
 {
-    public interface isDestination
+    public interface isPusher
     {
-        bool isTaken();
+        bool Push(Directions direction, MatrixItem targetPushFinalLocation);
     }
 }

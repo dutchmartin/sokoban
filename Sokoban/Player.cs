@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Sokoban
 {
-    public class Player : MazeItem, isMovable
+    public class Player : MazeItem, isMovable, isPusher
     {
         public bool canMove(Directions direction)
         {
@@ -30,17 +30,24 @@ namespace Sokoban
                 return;
 
             MatrixItem nextLocation = getNextLocation(direction);
-
-            if(nextLocation.occupant is isMovable)
-            {
-                isMovable nextItem = (isMovable)nextLocation.occupant;
-                nextItem.Move(direction);
-            }
+            Push(direction, nextLocation);
 
             location.occupant = null;
             location = nextLocation;
             location.occupant = this;
 
+        }
+
+        public bool Push(Directions direction, MatrixItem nextLocation)
+        {
+            if (nextLocation.occupant is isMovable)
+            {
+                isMovable nextItem = (isMovable)nextLocation.occupant;
+                nextItem.Move(direction);
+                return true;
+            }
+
+            return false;
         }
     }
 }

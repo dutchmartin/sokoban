@@ -50,21 +50,21 @@
   <Class Name="Sokoban.MazeFactory">
     <Position X="11.75" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAIAAAAQAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>MazeFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MatrixItem">
     <Position X="3.25" Y="8" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AACAABAAAAAAAAAAAAAAAAAAEAAAAAAIAAAAAAABAAQ=</HashCode>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAEAAAAAAIAAAAAAABAAQ=</HashCode>
       <FileName>MatixItem.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.Player">
     <Position X="9.25" Y="10.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
       <FileName>Player.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -82,6 +82,27 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Wall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sokoban.Board" Collapsed="true">
+    <Position X="6.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEADAAAAAAACACACAAABAAACAA=</HashCode>
+      <FileName>Board.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sokoban.CharToTypeDictionary">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MazeItemLookUpTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sokoban.TypeToCharDictionary">
+    <Position X="18.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypeToCharDictionary.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="Sokoban.IRenderable">
@@ -103,6 +124,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>isDestination.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Sokoban.isPusher">
+    <Position X="14" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>isPusher.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Enum Name="Sokoban.Directions">
