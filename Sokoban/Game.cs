@@ -9,6 +9,7 @@ namespace Sokoban
     {
         public MatrixItem[] Destinations { get; set; }
         public Player Player { get; set; }
+        public DoublyLinkedMatrix Board { get; set; }
         public void DoMove()
         {
             throw new System.NotImplementedException();
