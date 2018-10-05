@@ -7,5 +7,9 @@ namespace Sokoban
 {
     public class Wall : MazeItem
     {
+        public Wall()
+        {
+            view = '#';
+        }
     }
 }

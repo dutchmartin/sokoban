@@ -7,6 +7,10 @@ namespace Sokoban
 {
     public class Player : MazeItem, isMovable
     {
+        public Player()
+        {
+            view = '@';
+        }
         public bool canMove(Directions direction)
         {
             MazeItem nextItem = getNextLocation(direction).occupant; 

@@ -7,6 +7,7 @@ namespace Sokoban
 {
     public abstract class MazeItem
     {
+        public char view;
         public MatrixItem location { get; set; }
 
         public MatrixItem getNextLocation(Directions direction)
