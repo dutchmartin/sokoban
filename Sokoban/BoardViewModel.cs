@@ -7,7 +7,6 @@ namespace Sokoban
 {
     public class GameViewModel
     {
-        private GameView _GameView;
         private Game _game;
         public DoublyLinkedMatrix _board;
 

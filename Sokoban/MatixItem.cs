@@ -8,6 +8,7 @@ public class MatrixItem
     public MatrixItem West { get; set; }
 
     public MazeItem occupant { get; set; }
+    public bool isDestination = false;
 
     //public bool isDestination { get; set; }
 }

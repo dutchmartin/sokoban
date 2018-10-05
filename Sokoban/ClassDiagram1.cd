@@ -9,9 +9,9 @@
     <Lollipop Position="0.217" />
   </Class>
   <Class Name="Sokoban.GameViewModel">
-    <Position X="8" Y="3.25" Width="1.5" />
+    <Position X="6" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAQ=</HashCode>
       <FileName>BoardViewModel.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -25,7 +25,7 @@
   <Class Name="Sokoban.Game">
     <Position X="6" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAQAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAASAAAAA=</HashCode>
       <FileName>Game.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -43,7 +43,7 @@
   <Class Name="Sokoban.MazeItem">
     <Position X="9.25" Y="8" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAQAAAAAAAAA=</HashCode>
       <FileName>BoardItem.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -93,6 +93,14 @@
       <HashCode>AAAAAAAQAAAAAAAAIIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>InputHandler.cs</FileName>
     </TypeIdentifier>
+  </Class>
+  <Class Name="Sokoban.Destination">
+    <Position X="12" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Destination.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Interface Name="Sokoban.IRenderable">
     <Position X="6.25" Y="0.5" Width="1.5" />
