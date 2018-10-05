@@ -32,6 +32,14 @@ namespace Sokoban
             location.occupant = null;
             location = nextLocation;
             location.occupant = this;
+            if (location.isDestination)
+            {
+                this.view = '0';
+            }
+            else
+            {
+                view = 'O';
+            }
         }
     }
 }

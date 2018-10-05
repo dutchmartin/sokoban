@@ -15,7 +15,7 @@ namespace Sokoban
         {
             MazeItem nextItem = getNextLocation(direction).occupant; 
 
-            if (nextItem == null)
+            if (nextItem is null)
                 return true;
 
             if(!(nextItem is isMovable))
