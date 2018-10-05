@@ -9,3 +9,4 @@ namespace Sokoban
     {
         bool isTaken();
     }
+}
