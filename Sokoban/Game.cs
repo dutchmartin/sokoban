@@ -10,9 +10,11 @@ namespace Sokoban
         public MatrixItem[] Destinations { get; set; }
         public Player player { get; set; }
         public DoublyLinkedMatrix Board { get; set; }
+        private GameViewModel view;
 
         public Game(DoublyLinkedMatrix board)
         {
+            view = new GameViewModel(this);
             Board = board;
             getDestinations();
             player = new Player();
