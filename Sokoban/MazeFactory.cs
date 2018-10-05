@@ -9,48 +9,32 @@ namespace Sokoban
     {
         public static MatrixItem SetUpLevel(String level)
         {
-            
-            
+
+
             throw new NotImplementedException();
         }
         private static DoublyLinkedMatrix CreateMazeContainer(String level)
         {
             String[] LevelLines = level.Split('\n');
-            int mazeWidth = LevelLines.First().Length;
-            var maze = new MazeItem[LevelLines.Length, mazeWidth];
-            for (int i = 0; i < LevelLines.Length; i++)
+            // Set up the matrix.
+            var Matrix = new DoublyLinkedMatrix(MatrixItemsFromString(LevelLines[0]));
+            // Add more Rows.
+            for (int i = 1; i < LevelLines.Length; i++)
             {
-                var chars = LevelLines[i].ToCharArray();
-                for (int j = 0; j > chars.Length; j++)
-                {
-                    maze[i, j] = MazeItemFromChar(chars[j]);
-                }
+                Matrix.AddRow(MatrixItemsFromString(LevelLines[i]));
             }
-            return new DoublyLinkedMatrix(maze);
+            return Matrix;
         }
-        private static MazeItem MazeItemFromChar(Char item)
+
+        private static MatrixItem[] MatrixItemsFromString(String BoardItemRow)
         {
-            switch (item)
+            MatrixItem[] Row = new MatrixItem[BoardItemRow.Length];
+            var chars = BoardItemRow.ToCharArray();
+            for(int i = 0; i < chars.Length; i++)
             {
-                case '#':
-                    return new Wall();
-                case '.':
-                    //Bestaat niet meer
-                    //return new Floor();
-                case 'O':
-                    return new Box();
-                case '0':
-                    //Moet anders worden verwerkt
-                    //return new Box { OnDestination = true };
-                case '@':
-                    return new Player();
-                case 'x':
-                    //Moet ook anders worden verwerkt
-                    //return new Destination();
-                default:
-                    //Bestaat niet meer
-                    //return new Floor();
+                Row[i] = MatrixItemFactory.Create(chars[i]);
             }
+            return Row;
         }
     }
 }
