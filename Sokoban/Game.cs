@@ -22,6 +22,7 @@ namespace Sokoban
         public void DoMove(Directions direct)
         {
             player.Move(direct);
+            view.RenderView();
         }
 
         private void getDestinations()
