@@ -25,7 +25,7 @@
   <Class Name="Sokoban.Game">
     <Position X="6" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAEAAAAAAAEAAAAAAAAAAAAAAAFAAAAACAAAAA=</HashCode>
+      <HashCode>AAAAAAAEAAAAAAAEAAAAAAAAAAAAAAAFAQAAACAAAAA=</HashCode>
       <FileName>Game.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -88,17 +88,10 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.InputHandler">
-    <Position X="13.25" Y="1" Width="1.5" />
+    <Position X="10.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAQAAAAAAAAIIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAQAAAAAAAAIIAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
       <FileName>InputHandler.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Sokoban.Destination">
-    <Position X="4.75" Y="10.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Destination.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="Sokoban.IRenderable">
