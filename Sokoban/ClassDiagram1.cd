@@ -25,7 +25,7 @@
   <Class Name="Sokoban.Game">
     <Position X="6" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAEAAAAAAAEAAAAAAAAAAAAAAAFAAAAACAAAAA=</HashCode>
+      <HashCode>AAAAAAAEAAAAAAAEAAAAAAAAAAAAAAAFAQAAACAAAAA=</HashCode>
       <FileName>Game.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -50,18 +50,22 @@
   <Class Name="Sokoban.MazeFactory">
     <Position X="12" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAIAAAAAAAAAAAAAAAgA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAgA=</HashCode>
       <FileName>MazeFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MatrixItem">
-    <Position X="5.75" Y="8" Width="1.5" />
+    <Position X="5.75" Y="8.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AACAABAAAAAAAAAAAAAAAAAAEAAAAAAIAAAAAAABAAQ=</HashCode>
       <FileName>MatixItem.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="occupant" />
+      <Property Name="East" />
+      <Property Name="North" />
+      <Property Name="South" />
+      <Property Name="West" />
     </ShowAsAssociation>
   </Class>
   <Class Name="Sokoban.Player">
@@ -88,17 +92,17 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.InputHandler">
-    <Position X="11" Y="1.5" Width="1.5" />
+    <Position X="10.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAQAAAAAAAAIIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAQAAAAAAAAIIAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
       <FileName>InputHandler.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sokoban.Destination">
-    <Position X="4.75" Y="10.75" Width="1.5" />
+  <Class Name="Sokoban.GameInitializer">
+    <Position X="9" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Destination.cs</FileName>
+      <HashCode>AAAAAQAAAAAAAAAAAIAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameInitializer.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="Sokoban.IRenderable">

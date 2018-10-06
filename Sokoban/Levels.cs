@@ -11,5 +11,7 @@ namespace Sokoban
         public static readonly string Level_2 = Properties.Resources.doolhof2;
         public static readonly string Level_3 = Properties.Resources.doolhof3;
         public static readonly string Level_4 = Properties.Resources.doolhof4;
+        public static readonly string Level_5 = Properties.Resources.doolhof5;
+        public static readonly string Level_6 = Properties.Resources.doolhof6;
     }
 }

@@ -28,5 +28,15 @@ namespace Sokoban
         {
             return (numberToCheck >= bottom && numberToCheck <= top);
         }
+        public int GetNummericInput(int min, int max)
+        {
+            int input;
+            do
+            {
+                input = (int) Console.ReadKey().Key;
+            }
+            while (!TestRange(input, min, max));
+            return input;
+        }
     }
 }

@@ -19,6 +19,11 @@ namespace Sokoban
             getDestinations();
             player = new Player();
         }
+        public void Play()
+        {
+            // Start the main game loop.
+        }
+
         public void DoMove(Directions direct)
         {
             player.Move(direct);
