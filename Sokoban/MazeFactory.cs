@@ -7,13 +7,8 @@ namespace Sokoban
 {
     public class MazeFactory
     {
-        public static MatrixItem SetUpLevel(String level)
-        {
 
-
-            throw new NotImplementedException();
-        }
-        private static DoublyLinkedMatrix CreateMazeContainer(String level)
+        public DoublyLinkedMatrix CreateMaze(String level)
         {
             String[] LevelLines = level.Split('\n');
             // Set up the matrix.

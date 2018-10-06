@@ -50,18 +50,22 @@
   <Class Name="Sokoban.MazeFactory">
     <Position X="12" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAIAAAAAAAAAAAAAAAgA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAgA=</HashCode>
       <FileName>MazeFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MatrixItem">
-    <Position X="5.75" Y="8" Width="1.5" />
+    <Position X="5.75" Y="8.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AACAABAAAAAAAAAAAAAAAAAAEAAAAAAIAAAAAAABAAQ=</HashCode>
       <FileName>MatixItem.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="occupant" />
+      <Property Name="East" />
+      <Property Name="North" />
+      <Property Name="South" />
+      <Property Name="West" />
     </ShowAsAssociation>
   </Class>
   <Class Name="Sokoban.Player">
@@ -92,6 +96,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAQAAAAAAAAIIAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
       <FileName>InputHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sokoban.GameInitializer">
+    <Position X="9" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAIAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameInitializer.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="Sokoban.IRenderable">

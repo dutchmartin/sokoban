@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Board.cs" />
+    <Compile Include="ChooseLevelView.cs" />
     <Compile Include="DoublyLinkedMatrix.cs" />
     <Compile Include="BoardItem.cs" />
     <Compile Include="BoardView.cs" />
@@ -51,8 +52,11 @@
     <Compile Include="Directions.cs" />
     <Compile Include="FileReader.cs" />
     <Compile Include="Game.cs" />
+    <Compile Include="GameInitializer.cs" />
+    <Compile Include="InputHandler.cs" />
     <Compile Include="isDestination.cs" />
     <Compile Include="isMovable.cs" />
+    <Compile Include="LevelChooser.cs" />
     <Compile Include="Levels.cs" />
     <Compile Include="MatixItem.cs" />
     <Compile Include="MatrixItemFactory.cs" />
