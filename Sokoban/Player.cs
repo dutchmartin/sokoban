@@ -13,10 +13,17 @@ namespace Sokoban
         }
         public bool canMove(Directions direction)
         {
-            MazeItem nextItem = getNextLocation(direction).occupant; 
+            
+            MatrixItem nextItemLocation = getNextLocation(direction);
+            if (nextItemLocation == null)
+                return false;
 
-            if (nextItem is null)
+            MazeItem nextItem = nextItemLocation.occupant;
+
+            if (nextItem is null){
+                Console.WriteLine("NextCell is empty");
                 return true;
+            }
 
             if(!(nextItem is isMovable))
             {
@@ -44,7 +51,6 @@ namespace Sokoban
             location.occupant = null;
             location = nextLocation;
             location.occupant = this;
-
         }
     }
 }

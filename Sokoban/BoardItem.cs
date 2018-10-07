@@ -12,7 +12,7 @@ namespace Sokoban
 
         public MatrixItem getNextLocation(Directions direction)
         {
-            MatrixItem result = new MatrixItem();
+            MatrixItem result = null;
 
             switch (direction)
             {
@@ -28,6 +28,8 @@ namespace Sokoban
                 case Directions.Down:
                     result = location.South;
                     break;
+                default:
+                    throw new Exception("No correct direction");
             }
 
             return result;
