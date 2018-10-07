@@ -22,6 +22,11 @@ namespace Sokoban
         public void Play()
         {
             // Start the main game loop.
+            Boolean IsGameRunning = true;
+            while(IsGameRunning)
+            {
+                
+            }
         }
 
         public void DoMove(Directions direct)

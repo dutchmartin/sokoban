@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Sokoban
 {
-    public class GameViewModel
+    public class GameViewModel : IRenderable
     {
         private Game _game;
         public DoublyLinkedMatrix _board;
@@ -15,7 +15,7 @@ namespace Sokoban
             _game = game;
         }
 
-        public void RenderView()
+        public void Render()
         {
             _board = _game.Board;
             MatrixItem leftHelper = _board.Origin;
