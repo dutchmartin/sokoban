@@ -10,7 +10,11 @@ namespace Sokoban
     {
         public static MatrixItem Create(Char input)
         {
-            return new MatrixItem() { occupant = MazeItemFromChar(input) };
+            var item = MazeItemFromChar(input);
+            var MatrixItem = new MatrixItem() { occupant = item };
+            if (item != null)
+                item.location = MatrixItem;
+            return MatrixItem;
         }
         private static MazeItem MazeItemFromChar(Char item)
         {
