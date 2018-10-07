@@ -17,7 +17,7 @@ namespace Sokoban
             view = new GameViewModel(this);
             Board = board;
             getDestinations();
-            player = new Player();
+            player = board.player;
         }
         public void Play()
         {

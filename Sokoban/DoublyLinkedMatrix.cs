@@ -11,6 +11,7 @@ namespace Sokoban
         public MatrixItem Origin { get; set; }
         public MatrixItem End { get; set; }
         private int Width;
+        public Player player { get; private set; }
 
         public DoublyLinkedMatrix(MatrixItem[] FirstRow)
         {
@@ -40,6 +41,9 @@ namespace Sokoban
                 MatrixItem SouthWestCorner = GetSouthWestCornerItem();
                 foreach (MatrixItem item in Row)
                 {
+                    if (item.occupant is Player)
+                        player = (Player) item.occupant ;
+
                     if (LastItem == null)
                     {
                         // Set up the first item of the row.
