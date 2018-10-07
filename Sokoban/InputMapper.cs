@@ -13,13 +13,13 @@ namespace Sokoban
             switch (handler.GetArrowkeyInput())
             {
                 case ConsoleKey.UpArrow:
-                    return Directions.North;
+                    return Directions.Up;
                 case ConsoleKey.DownArrow:
-                    return Directions.South;
+                    return Directions.Down;
                 case ConsoleKey.LeftArrow:
-                    return Directions.West;
+                    return Directions.Left;
                 case ConsoleKey.RightArrow:
-                    return Directions.East;
+                    return Directions.Right;
                 default:
                     return 0; // Live dangerously by default.
             }
