@@ -26,7 +26,14 @@ namespace Sokoban
                 line = "";
                 do
                 {
-                    line += currentElement.occupant.view;
+                    if(currentElement.occupant == null)
+                    {
+                        line += ".";
+                    }
+                    else
+                    {
+                        line += currentElement.occupant.view;
+                    }
                     currentElement = currentElement.East;
                 } while (currentElement != null);
                 leftHelper = leftHelper.South;
