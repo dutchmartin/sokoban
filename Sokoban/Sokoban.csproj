@@ -75,6 +75,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Renderable.cs" />
+    <Compile Include="Sleeper.cs" />
     <Compile Include="Wall.cs" />
   </ItemGroup>
   <ItemGroup>

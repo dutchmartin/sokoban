@@ -11,7 +11,7 @@
   <Class Name="Sokoban.DoublyLinkedMatrix">
     <Position X="3.25" Y="8" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAEAAAAAgAAAg=</HashCode>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAEAAAAAAAAABEAAAAAgAAAg=</HashCode>
       <FileName>DoublyLinkedMatrix.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -43,11 +43,11 @@
       <FileName>MatixItem.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="occupant" />
-      <Property Name="East" />
       <Property Name="North" />
+      <Property Name="East" />
       <Property Name="South" />
       <Property Name="West" />
+      <Property Name="occupant" />
     </ShowAsAssociation>
   </Class>
   <Class Name="Sokoban.Player">
@@ -108,6 +108,14 @@
       <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>InputMapper.cs</FileName>
     </TypeIdentifier>
+  </Class>
+  <Class Name="Sokoban.Sleeper">
+    <Position X="13.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAQQAQIAAAAA=</HashCode>
+      <FileName>Sleeper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Interface Name="Sokoban.IRenderable">
     <Position X="6.25" Y="0.5" Width="1.5" />
