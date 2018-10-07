@@ -30,7 +30,7 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Sokoban.MazeFactory">
-    <Position X="12" Y="5" Width="1.5" />
+    <Position X="10.5" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAgA=</HashCode>
       <FileName>MazeFactory.cs</FileName>
@@ -39,7 +39,7 @@
   <Class Name="MatrixItem">
     <Position X="5.75" Y="8.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AACAABAAAAAAAAAAAAAAAAAAEAAAAAAIAAAAAAABAAQ=</HashCode>
+      <HashCode>AACAAAAAAAAQAAAAAAAAAAAAEAAAAAAIAAAAAAABAAQ=</HashCode>
       <FileName>MatixItem.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -51,7 +51,7 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Sokoban.Player">
-    <Position X="9.25" Y="10.5" Width="1.5" />
+    <Position X="7.25" Y="10.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Player.cs</FileName>
@@ -59,7 +59,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Sokoban.Box">
-    <Position X="7.25" Y="10.5" Width="1.5" />
+    <Position X="9.25" Y="10.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Box.cs</FileName>
@@ -74,21 +74,21 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.InputHandler">
-    <Position X="10.75" Y="2.75" Width="1.5" />
+    <Position X="7" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAQAAAAAAAAIIAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
       <FileName>InputHandler.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.GameInitializer">
-    <Position X="9" Y="2.25" Width="1.5" />
+    <Position X="5.25" Y="5.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAQAAAAAAAAAAAIAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAQAEAAAAAAAAAIAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameInitializer.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.GameViewModel">
-    <Position X="6" Y="2.25" Width="1.5" />
+    <Position X="1" Y="11" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAAAAAAAQ=</HashCode>
       <FileName>BoardViewModel.cs</FileName>
@@ -96,43 +96,48 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Sokoban.Game">
-    <Position X="3.25" Y="4.5" Width="1.5" />
+    <Position X="5.25" Y="11" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAEAAAAAAAEAAAAAAAAAAAAAAAFgQAAACAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAABFgQAAACAAAAA=</HashCode>
       <FileName>Game.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="view" />
+      <Property Name="Board" />
+      <Property Name="player" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Sokoban.InputMapper">
-    <Position X="8.25" Y="5.75" Width="1.5" />
+    <Position X="8.75" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>InputMapper.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.Sleeper">
-    <Position X="13.75" Y="10.25" Width="1.5" />
+    <Position X="11.5" Y="7.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAQQAQIAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAQAQIAAAAA=</HashCode>
       <FileName>Sleeper.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Interface Name="Sokoban.IRenderable">
-    <Position X="6.25" Y="0.5" Width="1.5" />
+    <Position X="0.5" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
       <FileName>Renderable.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Sokoban.isMovable">
-    <Position X="3.5" Y="10.5" Width="1.5" />
+    <Position X="8.25" Y="12.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>isMovable.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Enum Name="Sokoban.Directions">
-    <Position X="2.75" Y="1.5" Width="1.5" />
+    <Position X="3.5" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AACAAAIAAAAAAAAAAAAAAAAAEAAAAAAACACAAAABAAY=</HashCode>
       <FileName>Directions.cs</FileName>
