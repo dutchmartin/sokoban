@@ -25,14 +25,17 @@ namespace Sokoban
             Boolean IsGameRunning = true;
             while(IsGameRunning)
             {
-                
+                view.Render();
+                // Handle input.
+                this.DoMove(InputMapper.GetInputDirection());
+                IsGameRunning = false;
             }
         }
 
         public void DoMove(Directions direct)
         {
             player.Move(direct);
-            view.RenderView();
+            view.Render();
         }
 
         private void getDestinations()

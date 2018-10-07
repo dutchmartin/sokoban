@@ -8,23 +8,6 @@
     </TypeIdentifier>
     <Lollipop Position="0.217" />
   </Class>
-  <Class Name="Sokoban.GameViewModel">
-    <Position X="6" Y="2.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAQ=</HashCode>
-      <FileName>BoardViewModel.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Sokoban.Game">
-    <Position X="3.25" Y="4.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAEAAAAAAAEAAAAAAAAAAAAAAAFgQAAACAAAAA=</HashCode>
-      <FileName>Game.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Board" />
-    </ShowAsAssociation>
-  </Class>
   <Class Name="Sokoban.DoublyLinkedMatrix">
     <Position X="3.25" Y="8" Width="1.5" />
     <TypeIdentifier>
@@ -102,6 +85,28 @@
     <TypeIdentifier>
       <HashCode>AAAAAQAAAAAAAAAAAIAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameInitializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sokoban.GameViewModel">
+    <Position X="6" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAAAAAAAQ=</HashCode>
+      <FileName>BoardViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sokoban.Game">
+    <Position X="3.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAEAAAAAAAAAAAAAAAFgQAAACAAAAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sokoban.InputMapper">
+    <Position X="8.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InputMapper.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="Sokoban.IRenderable">

@@ -7,7 +7,7 @@ namespace Sokoban
 {
     public class InputHandler
     {
-        public void GetArrowkeyInput(out ConsoleKey key)
+        public ConsoleKey GetArrowkeyInput()
         {
             ConsoleKey input;
             do
@@ -15,7 +15,7 @@ namespace Sokoban
                 input = Console.ReadKey().Key;
             }
             while ( ! IsArrowkey(input));
-            key = input;
+            return input;
         }
         private Boolean IsArrowkey(ConsoleKey key)
         {
@@ -33,7 +33,10 @@ namespace Sokoban
             int input;
             do
             {
-                input = (int) Console.ReadKey().Key;
+                if (!Int32.TryParse(Console.ReadKey().KeyChar.ToString(), out input))
+                {
+                    continue;
+                }
             }
             while (!TestRange(input, min, max));
             return input;
