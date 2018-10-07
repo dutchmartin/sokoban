@@ -10,5 +10,10 @@ public class MatrixItem
     public MazeItem occupant { get; set; }
     public bool isDestination = false;
 
+    public MatrixItem()
+    {
+        occupant = null;
+    }
+
     //public bool isDestination { get; set; }
 }
