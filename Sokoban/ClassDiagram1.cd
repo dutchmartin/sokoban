@@ -15,19 +15,15 @@
       <FileName>BoardViewModel.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sokoban.FileReader">
-    <Position X="9.5" Y="5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAQAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>FileReader.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Sokoban.Game">
-    <Position X="6" Y="5" Width="1.5" />
+    <Position X="3.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAEAAAAAAAEAAAAAAAAAAAAAAAFAQAAACAAAAA=</HashCode>
+      <HashCode>AAAAAAAEAAAAAAAEAAAAAAAAAAAAAAAFgQAAACAAAAA=</HashCode>
       <FileName>Game.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Board" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Sokoban.DoublyLinkedMatrix">
     <Position X="3.25" Y="8" Width="1.5" />
@@ -46,6 +42,9 @@
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAQAAAAAAAAA=</HashCode>
       <FileName>BoardItem.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="location" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Sokoban.MazeFactory">
     <Position X="12" Y="5" Width="1.5" />
@@ -113,7 +112,7 @@
     </TypeIdentifier>
   </Interface>
   <Interface Name="Sokoban.isMovable">
-    <Position X="13.5" Y="10.5" Width="1.5" />
+    <Position X="3.5" Y="10.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>isMovable.cs</FileName>
