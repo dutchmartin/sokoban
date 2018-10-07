@@ -10,7 +10,11 @@ namespace Sokoban
 
         public DoublyLinkedMatrix CreateMaze(String level)
         {
-            String[] LevelLines = level.Split('\n');
+            String[] LevelLines = level.Split(
+            new[] { "\r\n", "\r", "\n" },
+            StringSplitOptions.None
+            );
+
             // Set up the matrix.
             var Matrix = new DoublyLinkedMatrix(MatrixItemsFromString(LevelLines[0]));
             // Add more Rows.
