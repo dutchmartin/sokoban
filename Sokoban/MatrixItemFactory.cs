@@ -22,7 +22,7 @@ namespace Sokoban
             {
                 case '#':
                     return new Wall();
-                case 'O':
+                case 'o':
                     return new Box();
                 case '@':
                     return new Player();

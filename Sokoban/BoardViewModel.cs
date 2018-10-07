@@ -41,6 +41,8 @@ namespace Sokoban
                 currentElement = leftHelper;
                 Console.WriteLine(line);
             }
+            Console.WriteLine("");
+            Console.WriteLine("Laat met de pijltjestoetsen de speler bewegen.");
         }
     }
 }
