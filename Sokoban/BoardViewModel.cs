@@ -29,14 +29,22 @@ namespace Sokoban
                 {
                     if(currentElement.occupant == null)
                     {
-                        line += ".";
+                        if (currentElement.IsDestination)
+                        {
+                            line += 'x';
+                        }
+                        else
+                        {
+                            line += ".";
+                        }
                     }
                     else
                     {
                         line += currentElement.occupant.view;
                     }
                     currentElement = currentElement.East;
-                } while (currentElement != null);
+                }
+                while (currentElement != null);
                 leftHelper = leftHelper.South;
                 currentElement = leftHelper;
                 Console.WriteLine(line);

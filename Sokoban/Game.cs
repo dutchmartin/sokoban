@@ -16,20 +16,20 @@ namespace Sokoban
         {
             view = new GameViewModel(this);
             Board = board;
-            getDestinations();
             player = board.player;
         }
         public void Play()
         {
-            // Start the main game loop.
-            Boolean IsGameRunning = true;
-            while(IsGameRunning)
+            int steps = 0;
+            while(!CheckIfWon())
             {
                 view.Render();
                 // Handle input.
                 this.DoMove(InputMapper.GetInputDirection());
-                //IsGameRunning = false;
+                steps++;
             }
+            Console.WriteLine("Je hebt met {0} stappen gewonnen!", steps);
+            Console.ReadLine();
         }
 
         public void DoMove(Directions direct)
@@ -37,28 +37,14 @@ namespace Sokoban
             player.Move(direct);
             view.Render();
         }
-
-        private void getDestinations()
+        private bool CheckIfWon()
         {
-            int i = 0;
-            MatrixItem leftHelper = Board.Origin;
-            MatrixItem currentElement = leftHelper;
-            while (currentElement != null)
+            foreach(var item in Destinations )
             {
-                
-                do
-                {
-                    if (currentElement.isDestination)
-                    {
-                        Destinations[i] = currentElement;
-                        i++;
-                    }
-
-                    currentElement = currentElement.East;
-                } while (currentElement != null);
-                leftHelper = leftHelper.South;
-                currentElement = leftHelper;
+                if (! (item.occupant is Box))
+                    return false;
             }
+            return true;
         }
     }
 }

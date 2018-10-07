@@ -32,7 +32,7 @@ namespace Sokoban
             location.occupant = null;
             location = nextLocation;
             location.occupant = this;
-            if (location.isDestination)
+            if (location.IsDestination)
             {
                 this.view = '0';
             }
