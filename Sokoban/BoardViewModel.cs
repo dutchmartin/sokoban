@@ -17,6 +17,7 @@ namespace Sokoban
 
         public void Render()
         {
+            System.Console.Clear();
             _board = _game.Board;
             MatrixItem leftHelper = _board.Origin;
             MatrixItem currentElement = leftHelper;

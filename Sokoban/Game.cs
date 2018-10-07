@@ -28,7 +28,7 @@ namespace Sokoban
                 view.Render();
                 // Handle input.
                 this.DoMove(InputMapper.GetInputDirection());
-                IsGameRunning = false;
+                //IsGameRunning = false;
             }
         }
 
