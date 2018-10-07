@@ -9,7 +9,6 @@ namespace Sokoban
     {
         public bool awake{get; protected set;}
         private Random random;
-        public char view { get; protected set; }
 
         public Sleeper()
         {
@@ -20,20 +19,21 @@ namespace Sokoban
 
         public void NextCycle()
         {
-            if(awake)
+            if(awake == true)
             {
-                if(random.Next(1,101) >= 25)
+                Move(Directions.Left);
+                if(random.Next(1,4) == 1)
                 {
                     awake = false;
-                    view = 'Z';
+                    this.view = 'Z';
                 }
             }
             else 
             {
-                if(random.Next(1,101) >= 10)
+                if(random.Next(1,2) == 1)
                 {
                     awake = true;
-                    view = '$';
+                    this.view = '$';
                 }
             }
         }
@@ -45,23 +45,24 @@ namespace Sokoban
 
             return false;
         }
-        public void Move(Directions direction)
+        public void Move(Directions direc)
         {
-            int move = random.Next(1,4);
-            Directions direct;
+            // int move = random.Next(1,4);
+            int move = 1;
+            Directions direction = Directions.Right;
             switch(move)
             {
                 case 1:
-                    direct = Directions.Left;
+                    direction = Directions.Left;
                     break;
                 case 2:
-                    direct = Directions.Right;
+                    direction = Directions.Right;
                     break;
                 case 3:
-                    direct = Directions.Up;
+                    direction = Directions.Up;
                     break;
                 case 4:
-                    direct = Directions.Down;
+                    direction = Directions.Down;
                     break;
             }
 

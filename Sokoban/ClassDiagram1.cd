@@ -109,12 +109,13 @@
       <FileName>InputMapper.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Sokoban.Trap">
-    <Position X="13.25" Y="9.5" Width="1.5" />
+  <Class Name="Sokoban.Sleeper">
+    <Position X="13.75" Y="10.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Trap.cs</FileName>
+      <HashCode>AAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAQQAQIAAAAA=</HashCode>
+      <FileName>Sleeper.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Interface Name="Sokoban.IRenderable">
     <Position X="6.25" Y="0.5" Width="1.5" />
